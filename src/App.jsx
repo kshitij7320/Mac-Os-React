@@ -1,5 +1,6 @@
 import Dock from "./components/Dock"
 import Nav from "./components/Nav"
+import Note from "./components/Note"
 import Github from "./components/Windows/Github"
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
       
       <Dock />
       <Github />
+      <Note />
     </main>
   )
 }
