@@ -1,33 +1,32 @@
-import { useEffect, useState } from "react"
-
-const formatDateTime = (dateObj) => {
-  const days = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]
-  const months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
-
-  const dayName = days[dateObj.getDay()]
-  const monthName = months[dateObj.getMonth()]
-  const date = dateObj.getDate()
-
-  let hours = dateObj.getHours()
-  const minutes = dateObj.getMinutes().toString().padStart(2, "0")
-  const period = hours >= 12 ? "pm" : "am"
-  hours = hours % 12 || 12
-
-  return `${dayName} ${monthName} ${date} ${hours}:${minutes}${period}`
-}
+import React, { useState, useEffect } from 'react'
 
 const DateTime = () => {
-  const [dateTime, setDateTime] = useState(() => formatDateTime(new Date()))
+  const [dateTime, setDateTime] = useState('')
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
-      setDateTime(formatDateTime(new Date()))
-    }, 1000)
+    const updateDateTime = () => {
+      const now = new Date()
+      const formattedDateTime = now.toLocaleString('en-US', {
+        weekday: 'short',
+        month: 'short',
+        day: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true
+      }).toLowerCase().replace(/,/g, '')
+      
+      setDateTime(formattedDateTime)
+    }
 
-    return () => clearInterval(intervalId)
+    updateDateTime()
+    const interval = setInterval(updateDateTime, 1000)
+
+    return () => clearInterval(interval)
   }, [])
 
-  return <div>{dateTime}</div>
+  return (
+    <div>{dateTime}</div>
+  )
 }
 
 export default DateTime
