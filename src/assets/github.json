@@ -1,47 +1,92 @@
 [
   {
     "id": 1,
-    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1000",
-    "title": "Scheds - A Course Schedule Generator",
-    "description": "My proudest project yet, a comprehensive course schedule generator application built with ASP.NET Core MVC.",
-    "tags": ["ASP.NET Core", "C#", "Entity Framework", "SQL Server", "Bootstrap", "jQuery"],
-    "repoLink": "https://github.com/microsoft/dotnet",
-    "demoLink": "https://dotnet.microsoft.com/"
+    "image": "https://i.pinimg.com/736x/75/86/2b/75862bff03705710ce25760f74ecf3cd.jpg",
+    "title": "Ai-Resume-Analyzer",
+    "description": "AI-powered resume analysis tool for intelligent CV evaluation",
+    "tags": ["JavaScript", "AI", "Resume"],
+    "repoLink": "https://github.com/kshitij7320/Ai-Resume-Analyzer",
+    "demoLink": "https://unrivaled-crumble-388a40.netlify.app/"
   },
   {
     "id": 2,
-    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
-    "title": "FinTrack - Personal Finance Dashboard",
-    "description": "A real-time finance tracker that visualizes spending habits using interactive charts and connects to banking APIs.",
-    "tags": ["React", "TypeScript", "Chart.js", "Node.js", "Express", "MongoDB"],
-    "repoLink": "https://github.com/facebook/react",
-    "demoLink": "https://react.dev/"
+    "image": "https://via.placeholder.com/300?text=Job-App2.0",
+    "title": "Job-App2.0",
+    "description": "Job application platform with modern UI and features",
+    "tags": ["JavaScript", "React", "Job Portal"],
+    "repoLink": "https://github.com/kshitij7320/Job-App2.0",
+    "demoLink": ""
   },
   {
     "id": 3,
-    "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=1000",
-    "title": "SecureAuth - Backend Identity Service",
-    "description": "A robust backend authentication microservice featuring JWT implementation, role-based access control, and OAuth2 integration.",
-    "tags": ["Python", "Django", "PostgreSQL", "Docker", "Redis", "JWT"],
-    "repoLink": "https://github.com/django/django",
-    "demoLink": null
+    "image": "https://i.pinimg.com/736x/8f/8f/c1/8f8fc121d84032bc89b1930804f231df.jpg",
+    "title": "Mac-Os-React",
+    "description": "macOS-inspired UI built with React",
+    "tags": ["JavaScript", "React", "UI Design"],
+    "repoLink": "https://github.com/kshitij7320/Mac-Os-React",
+    "demoLink": "https://portfolio-kshitij.shop"
   },
   {
     "id": 4,
-    "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=1000",
-    "title": "ChatStream - Real-time Messaging App",
-    "description": "A lightweight chat application allowing users to create rooms and message instantly. Optimized for low latency communication.",
-    "tags": ["Vue.js", "Firebase", "Tailwind CSS", "Socket.io"],
-    "repoLink": "https://github.com/vuejs/core",
-    "demoLink": "https://vuejs.org/"
+    "image": "https://i.pinimg.com/736x/66/68/4d/66684df62c583609e4fc439ecf1450a7.jpg",
+    "title": "Notes-App",
+    "description": "Notes-App using React and TailwindCss",
+    "tags": ["JavaScript", "React", "TailwindCSS", "Notes"],
+    "repoLink": "https://github.com/kshitij7320/Notes-App",
+    "demoLink": "https://notes-kshitij.netlify.app/"
   },
   {
     "id": 5,
-    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1000",
-    "title": "TerminalX - CLI Productivity Tool",
-    "description": "A command-line interface tool built to automate repetitive developer tasks and manage local environments efficiently.",
-    "tags": ["Rust", "Clap", "Tokio", "System API"],
-    "repoLink": "https://github.com/rust-lang/rust",
-    "demoLink": null
+    "image": "https://i.pinimg.com/736x/2b/c0/1f/2bc01fb838b10ee53027893b1ea9b27f.jpg",
+    "title": "Perplexity-Clone",
+    "description": "Clone of the Perplexity AI search engine",
+    "tags": ["JavaScript", "React", "AI", "Search"],
+    "repoLink": "https://github.com/kshitij7320/Perplexity-Clone",
+    "demoLink": "https://ai-puter-clone.netlify.app/"
+  },
+  {
+    "id": 6,
+    "image": "https://i.pinimg.com/736x/e8/de/be/e8debeca160d189ef0fd50d9c6c9b870.jpg",
+    "title": "Netflix-clone",
+    "description": "Netflix streaming platform clone with modern features",
+    "tags": ["JavaScript", "React", "Streaming"],
+    "repoLink": "https://github.com/kshitij7320/Netflix-clone",
+    "demoLink": "https://net-clone-web-app.netlify.app/"
+  },
+  {
+    "id": 7,
+    "image": "https://i.pinimg.com/736x/5c/2f/d5/5c2fd5d06eaf5eb493f7233d7aa60ad5.jpg",
+    "title": "Cryptoplace",
+    "description": "Cryptocurrency marketplace and information platform",
+    "tags": ["JavaScript", "React", "Crypto", "API"],
+    "repoLink": "https://github.com/kshitij7320/Cryptoplace",
+    "demoLink": "https://cryptoplace-a.netlify.app/"
+  },
+  {
+    "id": 8,
+    "image": "https://i.pinimg.com/736x/38/c1/f2/38c1f228d06034d5395ed4e2cc4c5251.jpg",
+    "title": "PORTFOLIO",
+    "description": "Personal portfolio website showcasing projects",
+    "tags": ["JavaScript", "React", "Portfolio"],
+    "repoLink": "https://github.com/kshitij7320/PORTFOLIO",
+    "demoLink": "https://portfolio-kshiti.netlify.app/"
+  },
+  {
+    "id": 9,
+    "image": "https://i.pinimg.com/736x/27/62/23/276223a1f7661cabda3ab0570ae8ff65.jpg",
+    "title": "Demo-Finance-frontend",
+    "description": "Financial dashboard frontend built with TypeScript",
+    "tags": ["TypeScript", "React", "Finance"],
+    "repoLink": "https://github.com/kshitij7320/Demo-Finance-frontend",
+    "demoLink": "https://finance-frontend-demo-pro.netlify.app/"
+  },
+  {
+    "id": 10,
+    "image": "https://i.pinimg.com/736x/72/2e/9b/722e9bd53e1ba59dc915f3890cb8f099.jpg",
+    "title": "Mini-Doc-App",
+    "description": "Lightweight document collaboration application",
+    "tags": ["JavaScript", "React", "Documents"],
+    "repoLink": "https://github.com/kshitij7320/Mini-Doc-App",
+    "demoLink": "https://mini-doc.netlify.app/"
   }
 ]
