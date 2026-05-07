@@ -8,49 +8,42 @@ const Cli = ({ windowName, setWindowsState }) => {
         about: {
             description: 'About me',
             usage: 'about',
-            fn: () => 'I am a full-stack web developer passionate about building modern web applications with React, Node.js, and cloud technologies.'
+            fn: () => 'Hi, I am Kshitij Himanshu 👋,A passionate Full Stack Developer focused on building modern, responsive, and scalable web applications.I enjoy creating interactive frontend experiences using React.js and building backend APIs with Node.js & Express.js. Currently exploring advanced React architecture, backend systems, and AI-powered applications.'
         },
         skills: {
             description: 'List technical skills',
             usage: 'skills',
-            fn: () => `Frontend: React, Vue.js, Vanilla JS, Sass, HTML/CSS
-Backend: Node.js, Express, Python, Django
-Databases: MongoDB, PostgreSQL, MySQL
-Tools: Git, Docker, Webpack, Vite
-Cloud: AWS, Azure, Heroku`
+            fn: () => `Frontend: React.js, Vanilla JS, Sass, HTML/CSS, Tailwind Css, Bootstrap, Material UI
+Backend: Node.js, Express
+Databases: MongoDB, Mongoose
+Tools: Git, Docker, Webpack, Vite, Github, Postman, Linux, Redux Toolkit, Axios, Firebase, Zustand
+Programming: Javascript, Python`
         },
         projects: {
             description: 'View my projects',
             usage: 'projects',
             fn: () => `1. Portfolio Website - React + Vite
-2. E-commerce Platform - MERN Stack
-3. Task Management App - Next.js
-4. Real-time Chat App - Socket.io
-5. Data Dashboard - React + Chart.js`
+2. Cryptoplace - React.js + CoinGecko API + React charts
+3. AI Clone - React.js + Puter.js + OpenAI API`
         },
         experience: {
             description: 'Display work experience',
             usage: 'experience',
-            fn: () => `Senior Developer @ Tech Corp (2022 - Present)
-  - Led development of 5+ React applications
-  - Mentored junior developers
-
-Full Stack Developer @ Web Solutions (2020 - 2022)
-  - Built scalable APIs with Node.js
-  - Designed responsive UIs with React`
+            fn: () => `SDE-1 @ Bluestock Fintech (June 2025 - July 2025)
+  - Led development of IPO React applications`
         },
         contact: {
             description: 'Get contact information',
             usage: 'contact',
             fn: () => `Email: kshitij.himanshu.fullstack@gmail.com
-Phone: +1 (555) 123-4567
-Location: San Francisco, CA`
+Phone: +91-878-979-1324
+Location: Noida, India`
         },
         github: {
             description: 'Open GitHub profile',
             usage: 'github',
             fn: () => {
-                window.open('https://github.com', '_blank')
+                window.open('https://github.com/kshitij7320', '_blank')
                 return 'Opening GitHub...'
             }
         },
@@ -62,9 +55,9 @@ Location: San Francisco, CA`
         social: {
             description: 'View social media links',
             usage: 'social',
-            fn: () => `Twitter: @kshitijdev
+            fn: () => `
 LinkedIn: /in/kshitij-himanshu
-Portfolio: portfolio-kshitij.dev`
+Portfolio: portfolio-kshitij.shop`
         },
         echo: {
             description: 'Echo a passed string',
