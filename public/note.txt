@@ -1,7 +1,14 @@
 /**
- * @file: profile.config.ts
- * @author: Kshitij Himanshu
- * @summary: A passionate full-stack developer focused on modern web applications and scalable frontend experiences.
+ * @file profile.config.ts
+ * @author Kshitij Himanshu
+ *
+ * MERN Stack Developer passionate about building scalable full-stack
+ * applications with React.js, Node.js, Express.js and MongoDB.
+ *
+ * Specialized in responsive UI development, REST APIs,
+ * authentication, state management and modern frontend architecture.
+ *
+ * Currently seeking Full Stack / Frontend Developer opportunities.
  */
 
 // --------------------------------------------------
@@ -9,42 +16,55 @@
 // --------------------------------------------------
 
 const TECH_STACK = {
+
   frontend: [
-    "React.js",       // 95%
-    "HTML5",          // 95%
-    "CSS3",           // 90%
-    "SCSS",           // 85%
-    "Tailwind CSS",   // 85%
-    "Bootstrap",      // 80%
-    "Material UI",    // 80%
+    "React.js",
+    "HTML5",
+    "CSS3",
+    "SCSS",
+    "Material UI",
+    "Tailwind CSS",
+    "Bootstrap",
+    "JavaScript (ES6+)"
   ],
 
   backend: [
-    "Node.js",        // 85%
-    "Express.js",     // 80%
-    "MongoDB",        // 75%
-    "Mongoose",       // 75%
+    "Node.js",
+    "Express.js",
+    "JWT",
+    "Bcrypt",
+    "Express Validator",
+    "REST API"
+  ],
+
+  database: [
+    "MongoDB",
+    "Redis",
+    "Mongoose"
+  ],
+
+  cloud: [
+    "ImageKit",
+    "Multer"
   ],
 
   programming: [
-    "JavaScript",
-    "Python"
+    "JavaScript"
   ],
 
   tools: [
     "Git",
     "GitHub",
-    "VS Code",
     "Postman",
     "Redux Toolkit",
     "Axios",
     "Fetch API",
+    "NPM",
     "Vite",
     "Linux",
-    "Firebase",
-    "Netlify",
-    "Vercel"
+    "JSON"
   ]
+
 };
 
 // --------------------------------------------------
@@ -73,18 +93,20 @@ class ProfessionalHistory {
     };
   }
 
-  /** * PERSONAL DEVELOPMENT JOURNEY
-   * @period 2024 - Present
-   */
   public Portfolio_Projects(): void {
 
-    this.role = "Full Stack Developer";
-    this.focus = "Building scalable modern web applications";
+    this.role = "MERN Stack Developer";
 
-    // Built multiple React.js projects
-    // Focused heavily on UI/UX and responsive design
-    // Integrated APIs and real-time data systems
-  }
+    this.focus = [
+      "Building Full Stack Applications",
+      "Scalable REST APIs",
+      "Modern Responsive UI",
+      "Authentication & Security",
+      "Performance Optimization",
+      "Reusable Component Architecture",
+      "Interactive User Experiences"
+    ];
+
 }
 
 // --------------------------------------------------
@@ -99,51 +121,112 @@ interface ProjectBuild {
 
 const featuredProjects: ProjectBuild[] = [
 
-  {
-    name: "Portfolio Website",
+{
+    name: "Insta-Like Clone",
 
     stack: [
-      "React.js",
-      "CSS"
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "ImageKit",
+        "Multer"
     ],
 
     highlights: [
-      "Showcases projects, skills, and social links",
-      "Enhanced UI/UX for smooth user interaction",
-      "Responsive modern portfolio design"
-    ]
-  },
 
-  {
-    name: "Perplexity AI Clone",
+        "Built a full-stack social media platform",
+
+        "JWT Authentication & Secure Login",
+
+        "Profile Management",
+
+        "Posts, Likes, Comments & Followers",
+
+        "8+ REST APIs",
+
+        "Supports 30,000+ user records",
+
+        "ImageKit cloud integration",
+
+        "Optimized media upload performance"
+
+    ]
+},
+
+{
+    name: "Moodify",
 
     stack: [
-      "React.js",
-      "Puter.js",
-      "CSS"
+
+        "React.js",
+
+        "Node.js",
+
+        "Express.js",
+
+        "MongoDB",
+
+        "Redis",
+
+        "MediaPipe",
+
+        "JWT"
+
     ],
 
     highlights: [
-      "Integrated AI-powered API responses",
-      "Improved intelligent response handling",
-      "Built an interactive AI assistant clone"
-    ]
-  },
 
-  {
-    name: "Cryptoplace",
+        "AI Powered Mood Detection",
+
+        "Real-time Face Expression Recognition",
+
+        "Personalized Music Recommendation",
+
+        "Redis Caching",
+
+        "Secure Authentication",
+
+        "40% Faster Performance"
+
+    ]
+},
+
+{
+    name: "MacOS Portfolio",
 
     stack: [
-      "React.js",
-      "CSS"
+
+        "React.js",
+
+        "SCSS",
+
+        "React Console Emulator",
+
+        "JSON",
+
+        "Vite"
+
     ],
 
     highlights: [
-      "Real-time cryptocurrency tracking platform",
-      "Implemented live data visualization",
-      "Optimized frontend performance"
+
+        "Draggable Windows",
+
+        "Dock Navigation",
+
+        "Desktop-like Experience",
+
+        "Responsive Design",
+
+        "JSON Driven Content",
+
+        "Reusable Component Architecture"
+
     ]
-  }
+}
+
 ];
 
 // --------------------------------------------------
@@ -156,6 +239,15 @@ interface Achievement {
 }
 
 const achievements: Achievement[] = [
+
+  
+
+{
+    title: "IBM Bob Hackathon 2026",
+
+    description:
+        "Participated in IBM Bob Hackathon 2026."
+},
 
   {
     title: "DSA Practice",
@@ -184,7 +276,28 @@ const achievements: Achievement[] = [
 ];
 
 // --------------------------------------------------
-// 5. ACADEMIC BACKGROUND
+// 5. SKILLS
+// --------------------------------------------------
+
+const skills = {
+
+    frontend: "React.js • HTML • CSS • SCSS • Material UI • Tailwind",
+
+    backend: "Node.js • Express.js • JWT • Bcrypt • REST API",
+
+    database: "MongoDB • Redis • Mongoose",
+
+    tools: "Git • GitHub • Linux • Postman • Axios • Redux Toolkit",
+
+    cloud: "ImageKit • Multer"
+
+}
+
+
+
+
+// --------------------------------------------------
+// 6. ACADEMIC BACKGROUND
 // --------------------------------------------------
 
 const education = new Map<string, string>([
@@ -195,7 +308,7 @@ const education = new Map<string, string>([
 ]);
 
 // --------------------------------------------------
-// 6. CONTACT CONFIGURATION
+// 7. CONTACT CONFIGURATION
 // --------------------------------------------------
 
 const contact = {
