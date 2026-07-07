@@ -120,10 +120,8 @@ interface ProjectBuild {
 }
 
 const featuredProjects: ProjectBuild[] = [
-
 {
     name: "Insta-Like Clone",
-
     stack: [
         "React.js",
         "Node.js",
@@ -135,23 +133,14 @@ const featuredProjects: ProjectBuild[] = [
     ],
 
     highlights: [
-
         "Built a full-stack social media platform",
-
         "JWT Authentication & Secure Login",
-
         "Profile Management",
-
         "Posts, Likes, Comments & Followers",
-
         "8+ REST APIs",
-
         "Supports 30,000+ user records",
-
         "ImageKit cloud integration",
-
         "Optimized media upload performance"
-
     ]
 },
 
@@ -159,37 +148,22 @@ const featuredProjects: ProjectBuild[] = [
     name: "Moodify",
 
     stack: [
-
         "React.js",
-
         "Node.js",
-
         "Express.js",
-
         "MongoDB",
-
         "Redis",
-
         "MediaPipe",
-
         "JWT"
-
     ],
 
     highlights: [
-
         "AI Powered Mood Detection",
-
         "Real-time Face Expression Recognition",
-
         "Personalized Music Recommendation",
-
         "Redis Caching",
-
         "Secure Authentication",
-
         "40% Faster Performance"
-
     ]
 },
 
@@ -197,31 +171,19 @@ const featuredProjects: ProjectBuild[] = [
     name: "MacOS Portfolio",
 
     stack: [
-
         "React.js",
-
         "SCSS",
-
         "React Console Emulator",
-
         "JSON",
-
         "Vite"
-
     ],
 
     highlights: [
-
         "Draggable Windows",
-
         "Dock Navigation",
-
         "Desktop-like Experience",
-
         "Responsive Design",
-
         "JSON Driven Content",
-
         "Reusable Component Architecture"
 
     ]
@@ -239,9 +201,6 @@ interface Achievement {
 }
 
 const achievements: Achievement[] = [
-
-  
-
 {
     title: "IBM Bob Hackathon 2026",
 
@@ -282,19 +241,12 @@ const achievements: Achievement[] = [
 const skills = {
 
     frontend: "React.js • HTML • CSS • SCSS • Material UI • Tailwind",
-
     backend: "Node.js • Express.js • JWT • Bcrypt • REST API",
-
     database: "MongoDB • Redis • Mongoose",
-
     tools: "Git • GitHub • Linux • Postman • Axios • Redux Toolkit",
-
     cloud: "ImageKit • Multer"
 
 }
-
-
-
 
 // --------------------------------------------------
 // 6. ACADEMIC BACKGROUND
