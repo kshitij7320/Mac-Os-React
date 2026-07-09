@@ -44,7 +44,7 @@
     "Responsive UI",
     "Search Engine"],
     "repoLink": "https://github.com/kshitij7320/Perplexity-Clone-2.0",
-    "demoLink": ""
+    "demoLink": "https://perplexity-clone-2-0.onrender.com"
   },
   {
     "id": 4,
@@ -125,7 +125,7 @@
     "description": "Job application platform with modern UI and features",
     "tags": ["JavaScript", "React", "Job Portal"],
     "repoLink": "https://github.com/kshitij7320/Job-App2.0",
-    "demoLink": ""
+    "demoLink": "https://job-app2-0.netlify.app/"
   },
   {
     "id": 13,
